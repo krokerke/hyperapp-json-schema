@@ -1,0 +1,34 @@
+{
+  "name": "hyperapp-json-schema",
+  "version": "1.0.0",
+  "description": "Hyperapp Higher Order App to add support for json-schema based state",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel example/index.html",
+    "build": "npx parcel build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krokerke/hyperapp-json-schema.git"
+  },
+  "keywords": [
+    "hyperapp",
+    "higher order app",
+    "hoa",
+    "json-schema"
+  ],
+  "author": "Kevin Kroker <krokerke@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krokerke/hyperapp-json-schema/issues"
+  },
+  "homepage": "https://github.com/krokerke/hyperapp-json-schema#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "ajv": "^6.2.0",
+    "hyperapp": "^1.1.2"
+  }
+}
